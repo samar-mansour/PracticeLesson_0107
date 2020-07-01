@@ -34,6 +34,15 @@ namespace PracticeLesson_0107
                 }
             }
         }
+        
+        static FruitSalad FruitsArray(Fruit[] fruits_array)
+        {
+            FruitSalad fruitSalad = new FruitSalad()
+            {
+                _fruits = fruits_array
+            };
+            return fruitSalad;
+        }
 
         static void Main(string[] args)
         {
